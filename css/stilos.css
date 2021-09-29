@@ -1,0 +1,264 @@
+body {
+
+	background-color:#AF7AC5;
+	
+	font-size: 15px;
+}
+* {
+	margin: 2;
+	padding: 2;
+	
+}
+nav {
+	list-style: none;
+	position:absolute;
+	z-index:999;
+}
+
+nav a {
+	background: #2E86C1;
+	border-radius: 0 10px 10px 0;
+	color: white;
+	font-weight:bold;
+	margin: 2px;
+	display: block;
+	padding: 3px;
+	text-decoration: none;
+	width: 150px;
+}
+
+nav a:hover {
+	background: #2E86C1;
+	color: white;
+	display: block;
+	margin: 2px;
+	padding: 3px;
+	text-decoration: none;
+	width: 150px;
+}
+#fondo {
+	background: #F7F9F9;
+	height: 750px;
+	position: fixed;
+	width: 100%;
+	z-index: -999;
+}
+#spacio {
+	height: 215px;
+	width: 500px;
+}
+header {
+	background: url(../img/barra.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	color: white;
+	font-size: 1.6em;
+	height: 432px;
+	margin: auto;
+	width: 100%;
+}
+#conte-slogan {
+	height: 432px;
+	margin: auto;
+	width: 1300px;
+}
+#slogan {
+	font-family: 'Libre Baskerville', serif;
+	font-size: .95em;
+	vertical-align: 60px;
+}
+#img-slogan {
+	margin: 0 0 0 150px;
+}
+#slogan, #img-slogan {
+	display: inline-block;
+}
+#introuno {
+	background: #F7F9F9;
+	color: #C0392B;
+	font-size: 1.4em;
+	height: 550px;
+	text-align: center;
+	width: 100%;
+}
+#introuno a {
+	background: white;
+	color: #F7F9F9;
+	text-decoration: none;
+}
+#imgs-intro 
+	height: 400px;
+	margin: auto;
+	width:905px;
+}
+#introdos {
+	background: url(../img/dirigido.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+#introdos2 {
+	background: url(../img/fondo-dirigido.png);
+	border-radius: 8px;
+	height: 450px;
+	margin: 1270px 0 0 200px;
+	position: absolute;
+	width: 1000px;
+}
+#introdos2 a {
+	background: #F7F9F9;
+	color: black;
+	text-decoration: none;
+}
+#img-intro2 {
+	background: url(../img/img-dirigido.png);
+	height: 450px;
+	width: 400px;
+	
+}
+#txt-intro2 {
+	font-size: 1.2em;
+	height: 340px;
+	padding: 50px 80px;
+	text-align: justify;
+	width: 430px;
+}
+#img-intro2, #txt-intro2 {
+	display:  inline-block;
+	vertical-align: top;
+}
+#cabeza {
+	background: url(../img/fondo-header.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+}
+#cabeza-servicios {
+	background: url(../img/fondo-header2.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+}
+#cabeza-cursos {
+	background: url(../img/fondo-header3.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+}
+#cabeza-contacto {
+	background: url(../img/fondo-header4.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+}
+#logo {
+	height: 90px;
+	width: 300px;
+}
+#spacio-head {
+	height: 80px;
+	width: 50px;
+}
+#seccion-txt {
+
+	margin: 0 0 0 50%;
+	height: 40px;
+	width: 150px;
+}
+
+#contenedor {
+	background: #AF7AC5;
+	height: auto;
+	width: 100%;
+}
+article {
+	background: url(../img/fondo.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	height: auto;
+	margin: auto;
+	width: 1000px;
+}
+#gorro {
+	height: 140px;
+	margin: 0 0 0 750px;
+	width: 200px;
+}
+#img-seccion {
+	margin: auto;
+	width: 800px;
+}
+#titulo {
+	background: url(../img/fondo-titulo.png);
+	font-size: 1.5em;
+	height: 46px;
+	line-height: 48px;
+	text-align: center;
+	width: 283px;
+}
+#titulo2 {
+	background: url(../img/fondo-titulo2.png);
+	font-size: 1.5em;
+	height: 46px;
+	line-height: 48px;
+	margin: 0 0 0 720px;
+	text-align: center;
+	width: 283px;
+}
+#texto {
+	font-size: 1.1em;
+	height: auto;
+	line-height: 25px;
+	margin: 20px 0 0 70px;
+	text-align: justify;
+	width: 500px;
+}
+#texto-seccion {
+	font-size: 1.1em;
+	height: auto;
+	line-height: 25px;
+	margin: 20px auto;
+	text-align: justify;
+	width: 800px;
+}
+#texto-seccion a {
+	background: #699;
+	color: white;
+	text-decoration: none;
+}
+#listados {
+	font-size: 1.1em;
+	height: auto;
+	margin: 20px 0 0 150px;
+	width: 800px;
+}
+#texto2 {
+	font-size: 1.1em;
+	height: auto;
+	line-height: 25px;
+	margin: 20px 0 0 430px;
+	text-align: justify;
+	width: 500px;
+}
+footer {
+	background: black;
+	color: white;
+	height: 50px;
+	text-align: center;
+	width: 100%;
+}
